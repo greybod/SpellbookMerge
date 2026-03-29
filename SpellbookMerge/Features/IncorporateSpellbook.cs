@@ -138,6 +138,7 @@ namespace SpellbookMerge.Features
                     Resources.SpellbookBlueprints.ClericSpellbook.ToReference<BlueprintSpellbookReference>(),
                     Resources.SpellbookBlueprints.WizardSpellbook.ToReference<BlueprintSpellbookReference>(),
                     Resources.SpellbookBlueprints.DruidSpellbook.ToReference<BlueprintSpellbookReference>(),
+                    Resources.SpellbookBlueprints.MagicDeceiverSpellbook.ToReference<BlueprintSpellbookReference>(),
                 };
                 bp.m_MythicSpellList = Resources.SpellListBlueprints.TricksterSpellList.ToReference<BlueprintSpellListReference>();
                 // TODO This is just there for compatibility with Owlcat new changes in 1.3. We are not using it yet, since we reverted to the old merging behavior
